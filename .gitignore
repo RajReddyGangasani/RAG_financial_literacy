@@ -1,0 +1,21 @@
+# Environment variables (contains API keys)
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+
+# virtual environments
+.venv*
+venv/
+myvenv/
+
+# editor
+.vscode/
+
+# mac
+.DS_Store
+
+# workspace files
+*.code-workspace
