@@ -12,6 +12,7 @@ index_name = os.getenv("PINECONE_INDEX_NAME")
 loader = PyPDFLoader("/Users/rajreddy/Desktop/PythonPractice/rag_project/data/financial_literacy_rag_dataset.pdf")
 docs = loader.load()
 print(f"document loaded", len(docs))
+print(f"document loaded successfully {docuemnt}")
 
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=800, chunk_overlap=150)
